@@ -48,3 +48,4 @@ public final class GaloisFieldTableGenerator {
 		this.log = log;
 	}
 }
+
