@@ -28,6 +28,7 @@ public class SSSImpl {
 			System.out.println("Recovered Secret: " + recovered.length);
 			for (int i1 = 0; i1 < 32; i1++)
 				System.out.print(recovered[i1]);
+
 		}
 		sc.close();
 
