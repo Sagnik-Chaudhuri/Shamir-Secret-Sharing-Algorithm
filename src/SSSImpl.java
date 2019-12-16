@@ -25,7 +25,7 @@ public class SSSImpl {
 			final Map<Integer, byte[]> parts = scheme.split(secret);
 			final byte[] recovered = scheme.join(parts);
 
-			System.out.println("Recovered Secret: " + recovered.length);
+			System.out.println("Recovered Secret of length : " + recovered.length);
 			for (int i1 = 0; i1 < 32; i1++)
 				System.out.print(recovered[i1]);
 
@@ -35,3 +35,4 @@ public class SSSImpl {
 	}
 
 }
+
